@@ -1,16 +1,16 @@
 # Coding_Challenges
 Here you will find answers to tricky programming challenges !
 
-Feel free to ask your questions, through mail.
+Feel free to ask your questions, through mail / [Facebook](https://www.facebook.com/msbhosale97)
 I will try my best to answer you.
 
-#Sample question:
+## Sample question:
 
 Write a program to check if a number is prime or not.
 
-#Answer:
+## Answer:
 
-------------------------------------------------------
+```C
 
 	#include<stdio.h>
 	void main()
@@ -36,4 +36,4 @@ Write a program to check if a number is prime or not.
 		}
 	}
 	
-------------------------------------------------------
+```
