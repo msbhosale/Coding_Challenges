@@ -1,7 +1,7 @@
 # Coding_Challenges
 Here you will find answers to tricky programming challenges !
 
-Feel free to ask your questions, through mail / [Facebook](https://www.facebook.com/msbhosale97)
+Feel free to ask your questions here : [Facebook/msbhosale](https://www.facebook.com/msbhosale97)
 
 I will try my best to answer you.
 
@@ -13,28 +13,28 @@ Write a program to check if a number is prime or not.
 
 ```C
 
-	#include<stdio.h>
-	void main()
-	{
-		int number = 15;
-		int counter = 0;
+#include<stdio.h>
+void main()
+{
+	int number = 15;
+	int counter = 0;
 
-		for(int i=2;i<number;i++)
+	for(int i=2;i<number;i++)
+	{
+		if(number%i == 0)
 		{
-			if(number%i == 0)
-			{
-				counter++;
-			}
-		}
-		
-		if(counter == 0)
-		{
-			printf("Number is prime\n");
-		}
-		else
-		{
-			printf("Number is not prime\n");
+			counter++;
 		}
 	}
+
+	if(counter == 0)
+	{
+		printf("Number is prime\n");
+	}
+	else
+	{
+		printf("Number is not prime\n");
+	}
+}
 	
 ```
