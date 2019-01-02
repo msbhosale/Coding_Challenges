@@ -35,6 +35,7 @@ void main()
 	{
 		printf("Number is not prime\n");
 	}
-}
-	
+}	
 ```
+
+* ### Program for PythagoreanTriplets (Using Java) : [Click for Code](https://github.com/msbhosale/Coding_Challenges/blob/master/PythagoreanTriplets.java)
