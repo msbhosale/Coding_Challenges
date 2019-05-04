@@ -3,7 +3,7 @@ package com.hefshine.test;
 import com.hefshine.beans.Cipher;
 import com.hefshine.io.Input;
 
-public class TestSorting {
+public class TestApp {
 
 	public static void main(String[] args) {
 
